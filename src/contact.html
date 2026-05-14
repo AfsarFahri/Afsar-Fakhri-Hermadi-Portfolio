@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/icons/tab_logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../src/output.css" rel="stylesheet">
+    <title>Afsar Fakhri Hermadi</title>
+</head>
+<body class="font-manrope ">
+
+    <!-- Navbar -->
+    <nav class="bg-white z-50 fixed w-full px-6 md:px-20 py-5">
+      <div class="container mx-auto flex justify-between items-center">
+        <img class="w-9 h-9" src="../assets/icons/Logo.svg" alt="">
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="../index.html" class="menu-color mx-4 text-underline">home</a>
+          <a href="about.html" class="menu-color mx-4 text-underline">about</a>
+          <a href="projects.html" class="menu-color mx-4 text-underline">projects</a>
+          <a href="contact.html" class="menu-color mx-4 text-underline active">contact</a>
+        </div>
+        <div class="flex items-center">
+          <a class="underline" target="_blank" href="./assets/document/Resume_Afsar Fakhri Hermadi.pdf">view resume</a>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-20 md:py-28">
+
+      <!-- Header -->
+      <div data-aos="fade-up" data-aos-duration="1200" class="mb-12">
+        <p class="text-[10px] font-medium tracking-[0.22em] uppercase text-gray-400 mb-3">Contact</p>
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-4">
+          Let's work <span class="font-instrument-serif italic font-normal">together.</span>
+        </h1>
+        <p class="max-w-md text-sm text-gray-500 font-medium leading-relaxed">
+          Have a project in mind or just want to say hello? I'd love to hear from you.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+
+        <!-- Left: Form -->
+        <div class="lg:col-span-7">
+          <form action="https://formspree.io/f/mpqbbrzw" method="POST" class="space-y-5">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="space-y-1.5">
+                <label class="text-[10px] font-bold uppercase tracking-wider text-gray-400 ml-1">Name</label>
+                <input type="text" name="name" placeholder="Your name" required
+                  class="w-full bg-gray-50/50 border border-black/5 rounded-xl px-4 py-3 text-sm outline-none focus:border-black/20 focus:bg-white transition-all"/>
+              </div>
+              <div class="space-y-1.5">
+                <label class="text-[10px] font-bold uppercase tracking-wider text-gray-400 ml-1">Email</label>
+                <input type="email" name="email" placeholder="Email address" required
+                  class="w-full bg-gray-50/50 border border-black/5 rounded-xl px-4 py-3 text-sm outline-none focus:border-black/20 focus:bg-white transition-all"/>
+              </div>
+            </div>
+
+            <div class="space-y-1.5">
+              <label class="text-[10px] font-bold uppercase tracking-wider text-gray-400 ml-1">Message</label>
+              <textarea name="message" rows="4" placeholder="How can I help?" required
+                class="w-full bg-gray-50/50 border border-black/5 rounded-xl px-4 py-3 text-sm outline-none focus:border-black/20 focus:bg-white transition-all resize-none"></textarea>
+            </div>
+
+            <button type="submit"
+              class="inline-flex items-center gap-2 bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-4 rounded-lg hover:bg-gray-800 transition-all active:scale-95">
+              Send Message
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+            
+            <!-- Email & Socials -->
+            <div class="py-2">
+              <p class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-2">Direct Mail</p>
+              <a href="mailto:afsarfakhri01@gmail.com" class="text-sm font-semibold hover:text-gray-500 transition-colors">afsarfakhri01@gmail.com</a>
+            </div>
+
+            <div class="py-2">
+              <p class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-2">Socials</p>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/AfsarFahri" target="_blank" class="text-sm font-semibold hover:underline">GitHub</a>
+                <a href="https://www.linkedin.com/in/afsar-fakhri-hermadi-404128247/" target="_blank" class="text-sm font-semibold hover:underline">LinkedIn</a>
+              </div>
+            </div>
+
+            <!-- Availability -->
+            <div class="pt-4 border-t border-black/5 mt-2 sm:col-span-2 lg:col-span-1">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.4)]"></span>
+                <p class="text-xs font-bold uppercase tracking-tight">Available for new projects</p>
+              </div>
+              <p class="text-xs text-gray-400 leading-relaxed">Internship, Freelance, or Full-time.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-[#111111] border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-8 py-12">
+
+        <div class="grid grid-cols-12 gap-8 mb-10">
+
+          <div class="col-span-12 md:col-span-5">
+            <p class="text-xs tracking-[0.2em] uppercase text-white/40 mb-3 font-light">Let's work together</p>
+            <h2 class="font-instrument-serif italic text-[2.2rem] leading-tight text-white mb-5">
+              Got a project <span class="font-semibold not-italic">in mind?</span>
+            </h2>
+            <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=afsarfakhri01@gmail.com"
+              class="inline-flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors duration-300 group">
+              afsarfakhri01@gmail.com
+              <span class="inline-flex items-center justify-center w-7 h-7 border border-white/30 rounded-full text-xs group-hover:bg-white group-hover:text-black transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class="hidden md:block col-span-2"></div>
+
+          <div class="col-span-6 md:col-span-2 flex flex-col gap-0.5">
+            <p class="text-xs tracking-[0.2em] uppercase text-white/40 mb-3 font-light">Navigation</p>
+            <a href="../index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="projects.html" class="footer-link">Projects</a>
+            <a href="#contact" class="footer-link">Contact</a>
+            <a target="_blank" href="./assets/document/Resume_Afsar Fakhri Hermadi.pdf" class="footer-link flex items-center gap-1">View Resume <span class="text-[10px]">↗</span></a>
+          </div>
+
+          <div class="col-span-6 md:col-span-3 flex flex-col gap-0.5">
+            <p class="text-xs tracking-[0.2em] uppercase text-white/40 mb-3 font-light">Connect</p>
+            <a href="https://github.com/AfsarFahri" target="_blank" class="footer-link flex items-center gap-1">GitHub <span class="text-[10px]">↗</span></a>
+            <a href="https://www.linkedin.com/in/afsar-fakhri-hermadi-404128247/" target="_blank" class="footer-link flex items-center gap-1">LinkedIn <span class="text-[10px]">↗</span></a>
+          </div>
+        </div>
+
+        <hr class="border-white/10 mb-6" />
+
+        <div class="flex flex-col md:flex-row items-center md:items-center justify-between gap-5 text-center md:text-left">
+          <img class="size-8" src="../assets/icons/tab_logo.png" alt="Tab Logo">
+          <p class="text-xs text-white/30 font-light tracking-wide text-center">
+            Frontend Developer &amp; UI/UX Designer — crafting responsive, intuitive experiences.
+          </p>
+          <p class="text-xs text-white/30 font-light">© 2026 Afsar Fakhri Hermadi. All rights reserved.</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      class="fixed bottom-8 right-8 z-50 w-11 h-11 bg-white text-black rounded-full flex items-center justify-center shadow-lg opacity-0 translate-y-4 transition-all duration-300 hover:bg-gray-200 hover:scale-110">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+      </svg>
+    </button>
+
+    <script>
+      const btn = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          btn.classList.remove('opacity-0', 'translate-y-4');
+          btn.classList.add('opacity-100', 'translate-y-0');
+        } else {
+          btn.classList.remove('opacity-100', 'translate-y-0');
+          btn.classList.add('opacity-0', 'translate-y-4');
+        }
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
